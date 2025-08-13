@@ -9,9 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    outline: 100px white;
-    outline-style: solid;
-    outline-offset: 5px;
+   
 }
 h1{
     font-size: 45px;
@@ -33,5 +31,4 @@ input{
     background-color:yellow;
     cursor: pointer;
 }
-
 
