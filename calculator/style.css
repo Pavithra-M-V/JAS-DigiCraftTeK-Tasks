@@ -1,5 +1,5 @@
 body{
-    margin: 40px;
+    margin: 0px;
     padding: 0px;
     background-color: #011627;
     color: #fdfffc;
@@ -9,13 +9,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-   
 }
 h1{
     font-size: 45px;
 }
 
-input{
+input {
     width: 75px;
     height: 50px;
     font-size: 45px;
@@ -31,4 +30,5 @@ input{
     background-color:yellow;
     cursor: pointer;
 }
+
 
