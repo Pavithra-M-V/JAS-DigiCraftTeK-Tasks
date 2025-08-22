@@ -2,27 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>To-Do List</title>
-<link rel="stylesheet" href="todo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css"> <!-- Linking CSS -->
 </head>
 <body>
-<center>
-<h1>My To-Do List</h1>
-<hr>
-<table>
-<tr><td>
-<ul>
-  <li><input type="checkbox"><span> Project completion</li>
-  <li><input type="checkbox"> <span>attend the class</li>
-  <li><input type="checkbox"><span> Finish the assignment</li>
-  <li><input type="checkbox"> <span>Cover the basics of html</li>
-  <li><input type="checkbox"><span> </li>
-  <li><input type="checkbox"> <span></li>
-  <li><input type="checkbox"> <span></li>
-</ul>
-</td></tr>
-</table>
-</center>
-</body>
-</html>
+  <div class="container">
+  <div class="todo-app">
+    <h2>To-Do List <img src="to do images/icon.png"></h2>
+    <div class="row">
+      <input type=""text" id="input-box" placeholder="Add a new task...">
+    <button onclick = "addTask()">Add</button>
+    </div>
+    <ul id="list-container">
+     <!-- <li class="checked">Task 1</li>
+      <li>Task 2 </li>
+      <li> Task 3</li>-->
+    </ul>
+  </div>
+  </div>
+  <script src="script.js"></script> <!-- Linking JavaScript -->
